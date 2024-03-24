@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .inputStyle {
+        @apply rounded-xl my-2 px-3 py-2 bg-zinc-200 placeholder-zinc-500;
+    }
+
+    .flexBox {
+        @apply flex justify-center items-center gap-1;
+    }
+
+    .table-border {
+        @apply p-2 border-2 border-black;
+    }
+}
