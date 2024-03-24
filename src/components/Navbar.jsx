@@ -12,7 +12,7 @@ const Navbar = () => {
             </span>
             <button className="flex justify-center items-center bg-gray-800 text-white rounded-lg cursor-pointer ring-white ring-2">
                 <img className="invert" src="src/assets/github.svg" alt="github logo" />
-                <a className="pr-2 font-bold">GitHub</a>
+                <a href="https://github.com/keyurpatil06/PassVAULT" target="_blank" className="pr-2 font-bold">GitHub</a>
             </button>
         </nav>
     )
